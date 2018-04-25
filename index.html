@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Murano Project</title>
+
+<!-- 	<link rel="stylesheet" type="text/css" href="assets/styles/cssworld.ru-xcal.css"> -->
+	<link rel="stylesheet" type="text/css" href="assets/styles/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/styles/fonts.css">
+	<link  href="assets/styles/datepicker.css" rel="stylesheet">
+</head>
+<body>
+<section class="section-shop">
+	<div class="shop-all-container">
+		<span class="main-title">Расчет стоимости</span>
+		<div class="shop-container">
+			<div class="furniture-items items">
+				<span>Предмет мебели</span>
+				<div class="furniture-item">
+					<img class="furniture-img" src="assets/img/couch.png">
+					<img class="furniture-img-picked" src="assets/img/couch-picked.png">
+					<span>Диван</span>
+					<input id="radiob couch" name="correct-item" type="radio" class="picked-item picked-item1">
+					<label for="radiob" class="label-picked"></label>
+					<label for="radiob" class="label-picked2"></label>
+				</div>
+				<div class="furniture-item">
+					<img class="furniture-img" src="assets/img/armchair.png">
+					<img class="furniture-img-picked" src="assets/img/armchair-picked.png">
+					<span>Кресло</span>
+					<input id="radiob armchair" name="correct-item" type="radio" class="picked-item picked-item2">
+					<label for="radiob" class="label-picked"></label>
+					<label for="radiob" class="label-picked2"></label>
+				</div>
+				<div class="furniture-item">
+					<img class="furniture-img" src="assets/img/mattress.png">
+					<img class="furniture-img-picked" src="assets/img/mattress-picked.png">
+					<span>Матрац</span>
+					<input id="radiob mattress" name="correct-item" type="radio" class="picked-item picked-item3">
+					<label for="radiob" class="label-picked"></label>
+					<label for="radiob" class="label-picked2"></label>
+				</div>
+				<div class="furniture-item">
+					<img class="furniture-img" src="assets/img/dining-chair.png">
+					<img class="furniture-img-picked" src="assets/img/dining-chair-picked.png">
+					<span>Стул</span>
+					<input id="radiob chair" name="correct-item" type="radio" class="picked-item picked-item4">
+					<label for="radiob" class="label-picked"></label>
+					<label for="radiob" class="label-picked2"></label>
+				</div>
+				<div class="furniture-item">
+					<img class="furniture-img" src="assets/img/carpet.png">
+					<img class="furniture-img-picked" src="assets/img/carpet-picked.png">
+					<span>Ковер</span>
+					<input id="radiob carpet" name="correct-item" type="radio" class="picked-item picked-item5">
+					<label for="radiob" class="label-picked"></label>
+					<label for="radiob" class="label-picked2"></label>
+				</div>
+			</div>
+			<div class="params-items items">
+				<span>Параметры</span>
+				<div class="params-item">
+					<select>
+						<option value="1place">1-местный</option>
+						<option value="2place">2-местный</option>
+						<option value="3place">3-местный</option>
+						<option value="4place">4-местный</option>
+					</select>
+
+					<select>
+						<option value="1place">Односпальный</option>
+						<option value="2place">Двухспальный</option>
+					</select>
+				</div>
+			</div>
+			<div class="quantity-items items">
+				<span>Количество</span>
+				<div class="quantity-item">
+					<img class="left-arrow" src="assets/img/left.png">
+					<span class="number">1</span>
+					<img class="right-arrow" src="assets/img/right.png">
+				</div>
+			</div>
+			<div class="last-items items">
+			<span>Дата и время уборки</span>
+				<div class="datetime-items">
+					<input data-toggle="datepicker" class="datepicker" placeholder="Выберите дату">
+					<input type="text" name="" class="adress" placeholder="Введите Ваш адрес">
+					<input type="text" name="" accept="number" class="other" placeholder="Введите телефон">
+					<input type="text" name="" class="other" placeholder="Введите E-Mail">
+				</div>
+				<div class="basket-items">
+					<div class="price-item basket-item">
+						<img src="assets/img/percentage.png">
+						<span>Стоимость —</span>
+					</div>
+					<div class="sale-item basket-item" style="border-top: 1px dashed white;">
+						<img src="assets/img/shopping-cart.png">
+						<span>Скидка —</span>
+					</div>					
+				</div>
+			</div>	
+		</div>
+	</div>
+</section>
+	<script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>
+	<script type="text/javascript" src="assets/scripts/script.js"></script>
+<!-- 	<script type="text/javascript" src="assets/scripts/cssworld.ru-xcal.js"></script> -->
+<script src="assets/scripts/datepicker.js"></script>
+</body>
+</html>
