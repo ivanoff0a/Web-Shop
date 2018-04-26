@@ -17,7 +17,7 @@ img {
 
 select,
 input {
-	border-color: #9dc7af;
+	border-color: #1dde85;
 	text-decoration: none;
 	outline:none;
 }
@@ -34,12 +34,12 @@ input:active {
 	margin-bottom: 40px;
 	margin-top: 20px;
 	margin-left: 50px;
-	color: #9dc7af;
+	color: #1dde85;
 }
 
 .items {
 	display: inline-flex;
-	border: 1px solid #9dc7af;
+	border: 1px solid #1dde85;
 	height: 600px;
 	margin-left: 20px;
 	border-radius: 5px;	
@@ -224,15 +224,37 @@ input:active {
 	height: 270px;
 }
 
+.basket-item {
+	width: 300px;
+}
+
 .basket-items span {
 	color: white;
-	font-size: 28px;
+	font-size: 22px;
 }
 
 .basket-item img {
 	margin-top: 10px;
 }
 
-.basket-item {
+.btn-purchase {
 	width: 300px;
+	color: grey;
+	background-color: white;
+	height: 50px;
+	margin-top: 20px;
+	font-size: 20px;
+	border: 0;
+}
+
+.btn-purchase:hover {
+	color: #1dde85;
+	transform: scale(1.05);
+	transition: .3s;
+}	
+
+
+
+.basket-item {
+	width: 330px;
 }

@@ -16,23 +16,23 @@
 		<div class="shop-container">
 			<div class="furniture-items items">
 				<span>Предмет мебели</span>
-				<div class="furniture-item">
+				<div class="furniture-item" id="couch" >
 					<img class="furniture-img" src="assets/img/couch.png">
 					<img class="furniture-img-picked" src="assets/img/couch-picked.png">
 					<span>Диван</span>
-					<input id="radiob couch" name="correct-item" type="radio" class="picked-item picked-item1">
+					<input id="radiob couch-item"  name="correct-item" type="radio" class="picked-item picked-item1">
 					<label for="radiob" class="label-picked"></label>
 					<label for="radiob" class="label-picked2"></label>
 				</div>
-				<div class="furniture-item">
+				<div class="furniture-item" id="armchair">
 					<img class="furniture-img" src="assets/img/armchair.png">
 					<img class="furniture-img-picked" src="assets/img/armchair-picked.png">
 					<span>Кресло</span>
-					<input id="radiob armchair" name="correct-item" type="radio" class="picked-item picked-item2">
+					<input id="radiob" name="correct-item" type="radio" class="picked-item picked-item2">
 					<label for="radiob" class="label-picked"></label>
 					<label for="radiob" class="label-picked2"></label>
 				</div>
-				<div class="furniture-item">
+				<div class="furniture-item" id="mattress">
 					<img class="furniture-img" src="assets/img/mattress.png">
 					<img class="furniture-img-picked" src="assets/img/mattress-picked.png">
 					<span>Матрац</span>
@@ -40,19 +40,19 @@
 					<label for="radiob" class="label-picked"></label>
 					<label for="radiob" class="label-picked2"></label>
 				</div>
-				<div class="furniture-item">
+				<div class="furniture-item" id="chair">
 					<img class="furniture-img" src="assets/img/dining-chair.png">
 					<img class="furniture-img-picked" src="assets/img/dining-chair-picked.png">
 					<span>Стул</span>
-					<input id="radiob chair" name="correct-item" type="radio" class="picked-item picked-item4">
+					<input id="radiob" name="correct-item" type="radio" class="picked-item picked-item4">
 					<label for="radiob" class="label-picked"></label>
 					<label for="radiob" class="label-picked2"></label>
 				</div>
-				<div class="furniture-item">
+				<div class="furniture-item" id="carpet">
 					<img class="furniture-img" src="assets/img/carpet.png">
 					<img class="furniture-img-picked" src="assets/img/carpet-picked.png">
 					<span>Ковер</span>
-					<input id="radiob carpet" name="correct-item" type="radio" class="picked-item picked-item5">
+					<input id="radiob" name="correct-item" type="radio" class="picked-item picked-item5">
 					<label for="radiob" class="label-picked"></label>
 					<label for="radiob" class="label-picked2"></label>
 				</div>
@@ -86,18 +86,21 @@
 				<div class="datetime-items">
 					<input data-toggle="datepicker" class="datepicker" placeholder="Выберите дату">
 					<input type="text" name="" class="adress" placeholder="Введите Ваш адрес">
-					<input type="text" name="" accept="number" class="other" placeholder="Введите телефон">
+					<input type="text" name="" id="only_num" accept="number" class="other" placeholder="Введите телефон">
 					<input type="text" name="" class="other" placeholder="Введите E-Mail">
 				</div>
 				<div class="basket-items">
 					<div class="price-item basket-item">
 						<img src="assets/img/percentage.png">
 						<span>Стоимость —</span>
+						<span class="price"> руб.</span>
 					</div>
 					<div class="sale-item basket-item" style="border-top: 1px dashed white;">
 						<img src="assets/img/shopping-cart.png">
 						<span>Скидка —</span>
-					</div>					
+						<span class="sale">O%</span>
+					</div>
+					<button class="btn-purchase">Заказать</button>					
 				</div>
 			</div>	
 		</div>
